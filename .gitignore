@@ -1,0 +1,13 @@
+
+/node_modules
+/package-lock.json
+
+/dist
+
+.DS_Store
+.idea
+
+yarn.lock
+tsconfig.tsbuildinfo
+/log
+*.log

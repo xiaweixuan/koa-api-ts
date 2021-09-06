@@ -1,0 +1,23 @@
+{
+  "watch": [
+    "./src/*",
+    "./package.json",
+    "./tsconfig.json"
+  ],
+  "ignore": [
+    ".git",
+    "node_modules/*"
+  ],
+  "verbose": false,
+  "execMap": {
+    "": "node",
+    "js": "node --harmony",
+    "ts": "ts-node"
+  },
+  "events": {},
+  "env": {
+    "NODE_ENV": "dev",
+    "PORT": "3000"
+  },
+  "ext": "js json ts"
+}
